@@ -1,3 +1,6 @@
+# CHANGES FROM ORIGINAL CODE
+Added an alternative test script (alt-test.py) that allows UMX to process a target dataset without performing evaluation. This script is based on the original test.py file and the same arguments can therefore also be parsed as in the original. However, the default arguments in the script is adjusted for a different audio source separation task, namely SepiWoogie: https://www.kaggle.com/burekpapi/sepiwoogie
+
 #  _Open-Unmix_ for PyTorch
 
 [![status](https://joss.theoj.org/papers/571753bc54c5d6dd36382c3d801de41d/status.svg)](https://joss.theoj.org/papers/571753bc54c5d6dd36382c3d801de41d) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/open-unmix-a-reference-implementation-for/music-source-separation-on-musdb18)](https://paperswithcode.com/sota/music-source-separation-on-musdb18?p=open-unmix-a-reference-implementation-for)
